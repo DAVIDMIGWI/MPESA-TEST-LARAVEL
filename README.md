@@ -13,9 +13,9 @@ This project demonstrates how to integrate M-Pesa STK Push functionality in a La
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/your-username/laravel-mpesa-stkpush.git
-    cd laravel-mpesa-stkpush
+   ```bash
+    git clone git@github.com:DAVIDMIGWI/MPESA-TEST-LARAVEL.git
+    cd MPESA-TEST-LARAVEL
     ```
 
 2. Install dependencies:
