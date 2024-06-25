@@ -13,9 +13,9 @@
             height: 100vh;
         }
         form {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
+            background-color: rgba(241, 15, 5, 10.9);
+            padding: 210px;
+            border-radius: 15px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         label {
