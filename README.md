@@ -13,7 +13,7 @@ This project demonstrates how to integrate M-Pesa STK Push functionality in a La
 
 1. Clone the repository:
 
-   ```bash
+    ```bash
     git clone git@github.com:DAVIDMIGWI/MPESA-TEST-LARAVEL.git
     cd MPESA-TEST-LARAVEL
     ```
@@ -24,27 +24,27 @@ This project demonstrates how to integrate M-Pesa STK Push functionality in a La
     composer install
     ```
 
-3. Copy the `.env.example` file to `.env` and configure your environment variables:
+3. Copy the `.env.example` file to `.env`:
 
     ```bash
     cp .env.example .env
     ```
 
-4. Generate an application key:
+4. Configure your environment variables in the `.env` file:
+
+    ```env
+    MPESA_CONSUMER_KEY=your_consumer_key
+    MPESA_CONSUMER_SECRET=your_consumer_secret
+    MPESA_SHORTCODE=your_shortcode
+    MPESA_PASSKEY=your_passkey
+    MPESA_CALLBACK_URL=https://your-callback-url.com/path
+    MPESA_BASE_URL=https://api.safaricom.co.ke
+    ```
+
+5. Generate an application key:
 
     ```bash
     php artisan key:generate
-    ```
-
-5. Configure the following M-Pesa related environment variables in your `.env` file with your credentials:
-
-    ```env
-    MPESA_CONSUMER_KEY=nQ3MD1oQxSF2uQtl9Gjcunvr69bOLL7s
-    MPESA_CONSUMER_SECRET=E9rMjrwfQDR4lDjg
-    MPESA_SHORTCODE=4120185
-    MPESA_PASSKEY=d8eea86dfac2dd012ac69593c91fce0bf7b4046434034bbd7231faadcb81c2de
-    MPESA_CALLBACK_URL=https://your-callback-url.com/path
-    MPESA_BASE_URL=https://api.safaricom.co.ke
     ```
 
 6. Start the Laravel development server:
@@ -96,5 +96,4 @@ Feel free to submit issues or pull requests.
 
 ## Contact
 
-For more information, contact [Your Name](mailto:your-email@example.com).
-# MPESA-TEST-LARAVEL
+For more information, contact [David Migwi](mailto:MIGWI81@GMAIL.COM).
